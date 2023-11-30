@@ -10,14 +10,35 @@ The dataset used in this analysis is a collection of features associated with on
 
 ## File Structure
 
-- `Analysis_For_Online_News_Popularity.ipynb`: The Jupyter notebook containing the complete analysis.
-- `data/`: A directory containing the dataset used for this analysis.
+- `notebook.ipynb`: The Jupyter notebook containing the complete analysis.
+- `OnlineNewsPopularity.csv`: A csv file containing the dataset used for this analysis.
 
 ## Running the Notebook
 
 To run the analysis notebook, follow these steps:
 
-1. Ensure you have Jupyter Notebook installed. If not, you can install it using:
+1. Clone this repository to your local machine:
 
    ```bash
-   pip install notebook
+   git clone https://github.com/your-username/Analysis-For-Online-News-Popularity.git
+
+2. Navigate to the project directory:
+   
+   ```bash   
+   cd Analysis-For-Online-News-Popularity
+
+3. Launch Jupyter Notebook:
+   
+    ```bash    
+   jupyter notebook
+
+4. Open the Analysis_For_Online_News_Popularity.ipynb notebook in your browser.
+
+5. Run the cells sequentially to execute the analysis.
+
+## Dependencies
+
+The analysis notebook relies on the following Python libraries:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
